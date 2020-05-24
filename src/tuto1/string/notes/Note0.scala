@@ -11,6 +11,7 @@ object Note0 {
     val concatenation = valeur1 + valeur2
     println(concatenation)
     val resultat = concatenation.split(" ")
+    //for each permet de parcourir le tableau resultat mot par mot si c'etait une chaine de caractere ou caractere donc il va parcourir caractere par caractere
     for(e <- resultat)
       println(e)
     //en revanche on peut trouver des methodes qui n'appartiennet pas au classe String du java mais on le trouve dans scala comme foreach
@@ -22,8 +23,6 @@ object Note0 {
     //la classe String dans java est final class cad on ne peut pas l'heriter mais avec la convertion implicite on peut ajouter des methodes dans cette class
     println ("ismahan".drop(2).take(2).capitalize )
     //drop(n) permmet d'effacer les n premier caractere, take(m) permet dafficher seulement les m mremier mettre , capitalize permet de metre le premier lettre en majiscule
-
-
 
   }
 

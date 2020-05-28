@@ -3,7 +3,7 @@ package tuto3.control.structures
 object Notes3MultipleCounters {
   def main(args: Array[String]): Unit = {
 
-    //1) boucle for avec deux conteur
+    //1) boucle for avec deux compteurs
     for (i <- 1 to 2; j <- 1 to 2) println(s"i = $i, j = $j")
     //
     println("--------------------")

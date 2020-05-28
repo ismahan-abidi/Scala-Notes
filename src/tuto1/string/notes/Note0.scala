@@ -19,7 +19,7 @@ object Note0 {
     //ces methodes existent dans des classe comme StringOpps , StringLike, WrappedString
     valeur1.foreach(x => println(x))
     for (c <- "haroun") println(c)
-    // les conversuibs implicites des string se faitent dans l'objet Predef
+    // les conversions implicites des string se faitent dans l'objet Predef
     //la classe String dans java est final class cad on ne peut pas l'heriter mais avec la convertion implicite on peut ajouter des methodes dans cette class
     println ("ismahan".drop(2).take(2).capitalize )
     //drop(n) permmet d'effacer les n premier caractere, take(m) permet dafficher seulement les m mremier mettre , capitalize permet de metre le premier lettre en majiscule

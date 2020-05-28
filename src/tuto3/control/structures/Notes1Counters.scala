@@ -3,7 +3,7 @@ package tuto3.control.structures
 object Notes1Counters {
   def main(args: Array[String]): Unit = {
     val a = Array("banana", "orange" , "fraise")
-    //il ya olusieur methodes pour parcourir un tableau
+    //il ya plusieurs methodes pour parcourir un tableau
     //1) for each
     for (e <- a) println(e)
     println("****************")
@@ -19,7 +19,7 @@ object Notes1Counters {
       println(s"$i is ${a(i)}")
     }
     println("****************")
-    //4) on peut creer un tableau ou bien collection à partire d'un autre tableau ou collection on utilisant yield
+    //4) on peut creer un tableau ou bien collection à partir d'un autre tableau ou collection on utilisant yield
     val newArray = for (e <- a) yield e.toUpperCase
     for(z <- newArray)
    println(z)

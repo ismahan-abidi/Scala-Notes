@@ -9,7 +9,7 @@ object Notes0 {
     //la correspondence de swish case de java s'apalle pattern matching en scala
     //for loop counters
     for (i <- 0 until 10) {
-      println(s"$i")
+      println(s" i = $i")
     }
   }
 

@@ -8,7 +8,7 @@ object Note2Splitting {
     val s = "eggs, milk, butter, Coco Puffs"
     val array1=s.split(",")
     array1.map(x => x.trim).foreach(println)
-    val string = " kouki abdelmonem"
+    val string = "kouki abdelmonem"
     println(string)
     println(string.trim)
     //en scala la methode split est surcharge si elle prend en parametre un string alors on appele la methode de la classe string de java

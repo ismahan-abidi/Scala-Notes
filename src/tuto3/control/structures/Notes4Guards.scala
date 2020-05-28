@@ -11,7 +11,7 @@ object Notes4Guards {
       if i % 2 == 0
     } println(i)
     println("*************")
-    //on peut ajouter pliusieurs gards quand on veut
+    //on peut ajouter plusieurs gards quand on veut
     for {
       i <- 1 to 10
       if i > 3

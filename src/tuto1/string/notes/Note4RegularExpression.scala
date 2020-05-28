@@ -2,7 +2,7 @@ package tuto1.string.notes
 
 object Note4RegularExpression {
   def main(args: Array[String]): Unit = {
-    //Regex (regular expression) on utilise les expression régulière pour voir si un string ccontient un pattern ou non
+    //Regex (regular expression) on utilise les expressions régulières pour voir si un string contient un pattern ou non
     //pour creer un pattern on appelle la methode .r sur un string qui contient le patern
     val numPattern = "[0-9]+".r
     val address = "123 Main Street Suite 101"

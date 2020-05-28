@@ -18,7 +18,7 @@ object Note1Equals {
        a multiline
        String"""
     println(foo)
-    //on remarqu eque l'espace blanc au debut de chaque ligne est pris en compte
+    //on remarque que l'espace blanc au debut de chaque ligne est pris en compte
     //on peut le supprimer on ajoutant | le pipe au debut de chaque ligne on appelant la methode .stripMargin
     val str =
     """je suis

@@ -13,8 +13,10 @@ object Notes0 {
     println(i)
     println(matchingType(2))
     println(matchingType(1.5f))
+    println(matchingType(1.5)) //pour les types float il faut ajouter f
     val p = new Personne
     println(matchingType(p))
+    g(3)
   }
 
   //declaration d'une fonction type de retour void = Unit
@@ -66,5 +68,10 @@ object Notes0 {
   }
 
   class Personne
+  //il vaut mieux mettre le default case pour eviter l'exception MatchError
+  def g( j : Int) : Unit = j match {
+    case 0 => println("0 received")
+    case 1 => println("1 is good, too")
+  }
 
 }

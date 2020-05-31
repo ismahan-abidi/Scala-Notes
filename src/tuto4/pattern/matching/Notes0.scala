@@ -60,6 +60,7 @@ object Notes0 {
 
   //matching n'est pas limité seulement au constantes(au valeurs) on peut par exemple aussi faire le matching sur les types (String, Int , Personne, ..)
   def matchingType(x: Any): String = x match {
+      //on ne peut pas utiliser  println car println de type Unit ne retourne pas de valeur
     case s: String => "x est un string "
     case i: Int => "x est un entier "
     case f: Float => "x est un float"

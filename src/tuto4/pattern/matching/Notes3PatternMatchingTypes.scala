@@ -53,7 +53,8 @@ object Notes3PatternMatchingTypes extends App{
     case null => "null"
 
     // 2.constructor pattern
-      //le pattern matching des constructeurs permet de matcher le constructeur utilise lors de la creation de l'objet
+      //le pattern matching des constructeurs permet de matcher le constructeur utilisé lors de la creation de l'objet
+      //il faut que la classe soit un case classe pour faire le constructor pattern
     case Personne("kouki" , x)=>  "xxxxxxxxx"
     case Personne(y , "ismahan")=>  "yyyyyyyyy"
     case Cercle(2) =>  "zzzzzzzzz"

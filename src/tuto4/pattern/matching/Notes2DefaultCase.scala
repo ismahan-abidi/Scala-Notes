@@ -16,8 +16,8 @@ object Notes2DefaultCase {
 
   }
   def f(i :Int) : Unit = i match {
-    //on ne peut pas recuperer la valeur par defaut quand on utilise le wildcard(_)
-    //pour acceder a cette valeur il faut le capter dans une variable
+    //on ne peut pas appeler une methode d'une valeur par defaut quand on utilise le wildcard (_)
+    //pour le faire il faut utiliser une variable
     case 0 => println("1")
     case 1 => println("2")
     case variable => println("You gave me: " + variable)

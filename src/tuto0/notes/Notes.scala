@@ -2,6 +2,7 @@ package tuto0.notes
 
 object Notes {
   def main(args: Array[String]): Unit = {
+    //object est l'equivalent d'une classe en java ou tout les attributs et les methodes sont statiques
     // pour creer une constante on utilise le mot "val"
     //pour creer un variable on utilise le mot var
     //on precise le type just apres le nom du variable

@@ -31,5 +31,4 @@ object Notes1PrimaryConstructor extends App{
   //println(p.firstName="haroun") ne fonctionne pas
   println("the new first name is " + p.firstName)
   println("the new last name is " + p.lastName + " à " +p.age+ " mois")
-
 }

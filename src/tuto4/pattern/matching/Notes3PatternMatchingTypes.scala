@@ -57,6 +57,7 @@ object Notes3PatternMatchingTypes extends App{
       //il faut que la classe soit un case classe pour faire le constructor pattern
     case Personne("kouki" , x)=>  "xxxxxxxxx"
     case Personne(y , "ismahan")=>  "yyyyyyyyy"
+    //case Personne("haroun")=>  "yyyyyyyyy"
     case Cercle(2) =>  "zzzzzzzzz"
     // 3.sequence pattern,
     case List(0, _, _) => "a three-element list with 0 as the first element"
@@ -64,8 +65,8 @@ object Notes3PatternMatchingTypes extends App{
     case Vector(1, _*) => "a vector starting with 1, having any number of elements"
     // 4.tuple pattern,
     case (a, b) => s"got $a and $b"
-    case (a, b, c) => s"got $a, $b, and $c"
     // 5.or type pattern.
+    case (a, b, c) => s"got $a, $b, and $c"
     case s: String => s"you gave me this string: $s"
     case i: Int => s"thanks for the int: $i"
     case f: Float => s"thanks for the float: $f"
@@ -80,10 +81,11 @@ object Notes3PatternMatchingTypes extends App{
   //creer des case class
   //une case class est une calsse particuliere quand utilise generalement dans le pattern matching
   case class Personne(first_name : String ,last_name: String ){
-    def this(name1 : String) ={
-      this(name1,"")
-    }
+
+  }
+  //declaration d'un constructeur auxiliaire dans l'objet compagnon
+  object Personne {
+    def apply(name1 : String)  : Personne = new Personne(name1,"")
   }
   case class Cercle(rayon : Int)
-
 }

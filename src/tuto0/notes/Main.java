@@ -1,10 +1,12 @@
 package tuto0.notes;
+
+import tuto5.classes.Notes5PrivatePrimaryConstructor;
+
 public class Main {
     public static void main(String[] args) {
         String name = "James gosling";
-        System.out.println( name.replace('g', 'G') );
-
         System.out.println(name);
+        System.out.println( name.replace('g', 'G') );
         int a = 3;
         //on java on trouve la notion de ternary operartion  (condition ternaire) :
         // c'est une ecriture reduite de if else ou ? remplace if et : remplace else
@@ -25,5 +27,6 @@ public class Main {
                 System.out.println("nom = hannachi");
                 break;
         }
+        Notes5PrivatePrimaryConstructor.f();
     }
 }

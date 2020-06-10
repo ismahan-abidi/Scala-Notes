@@ -11,7 +11,6 @@ object Notes4Subtypes {
 
   trait Nom_Interface //creation d'un trait l'equivalent d'une interface
   case class A(x: String) extends Nom_Interface
-
   case class B(y: String, z: Int) extends Nom_Interface
 
   def f(i: Nom_Interface): Unit = i match {

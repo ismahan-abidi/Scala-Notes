@@ -2,7 +2,7 @@ package tuto1.string.notes
 
 object Note1Equals {
   def main(args: Array[String]): Unit = {
-    // dans scala on utulise == pour comparer deux obejets pas comme java avec equals
+    // dans scala on utilise == pour comparer deux obejets pas comme java avec equals
     val s1 = "hello"
     val s2 = "Hello"
     //pour comparer deux chaînes de manière non sensible à la casse on ajoute soit la methode toUpperCase(tout en majiscule) soit toLowerCase

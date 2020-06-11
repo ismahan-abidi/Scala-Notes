@@ -16,7 +16,7 @@ object Note3Interpolation {
     val string2 = s"apres deux ans j'aurai ${age + 2} "
     println(string1)
     println(string2)
-    println(s"tu as  28 ans ${age == 28 }")
+    println(s"tu as  28 ans ${age == 27 }")
     //on peut creer un classe dans une methode
     //declaration d'un class dans scala
     class Personne(var nom:String, var prenom : String, var cin : Int)
@@ -30,7 +30,7 @@ object Note3Interpolation {
     println(string5)
     var string6 = raw"je \n m'appelle ismahan"
     println(string6)
-    //on peut traiter un string caractere par caractere a travers des methode de la programmation fonctionnel tq map filter ect
+    //on peut traiter un string caractere par caractere a travers des methode de la programmation fonctionnel tq map ,filter ect
     //map prend en parametre une fontion , cette fonction prend en parametre un caractere et renvoi un caractere
     val upper = "hello, world".map(c => c.toUpper)
     println(upper)

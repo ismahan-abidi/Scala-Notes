@@ -10,12 +10,12 @@ object Notes6BreakAndContinue {
       }
     }
     println("\n=== CONTINUE EXAMPLE ===")
-    val searchMe = "peter piper picked a peck of pickled peppers"
+    val str = "peter piper picked a peck of pickled peppers"
     var numPs = 0
-    for (i <- 0 until searchMe.length) {
+    for (i <- 0 until str.length) {
       breakable {
-        if (searchMe.charAt(i) != 'p') {
-          println(searchMe.charAt(i))
+        if (str.charAt(i) != 'p') {
+          println(str.charAt(i))
           break // break out of the 'breakable', continue the outside loop
         } else {
           numPs += 1

@@ -14,4 +14,5 @@ public final class SingletonExemple {
         return singleton_object;
     }
 
+
 }

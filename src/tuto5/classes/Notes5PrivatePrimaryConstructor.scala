@@ -14,6 +14,6 @@ object Notes5PrivatePrimaryConstructor {
   }
   object A { //creation de l'objet compagnion
     val a = new A("ismahan") //creation de l'objet du class
-    def getInstance = a//<=> def getInstance {return a} mais return n'existe pas dans scala
+    def getInstance = a   //<=> def getInstance {return a} mais return n'existe pas dans scala
   }
 }

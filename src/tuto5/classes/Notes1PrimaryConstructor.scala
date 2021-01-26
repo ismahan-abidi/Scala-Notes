@@ -1,4 +1,4 @@
-package tuto5.classes.Notes1
+package tuto5.classes
 
 object Notes1PrimaryConstructor extends App{
   //declaration d'un costructeur primaire
@@ -7,7 +7,7 @@ object Notes1PrimaryConstructor extends App{
   //on peut declarer aussi des autres attributes dans le corps de constructeur primaire exple Home , age
   //on peut aussi declarer des methodes dans le corp du constructeur primaire
   //les instructions dans le constructeur primaire seront executer lors de la creation d'un objet
-  //=>ces instruction font partie des corps de constructeur
+  //=>ces instructions font partie des corps du constructeur
   class Person(var firstName: String, var lastName: String) {
     println("creation d'un costructeur avec deux parametres")
     // some class fields (attributs )

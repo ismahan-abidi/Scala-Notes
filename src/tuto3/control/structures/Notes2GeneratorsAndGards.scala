@@ -9,7 +9,7 @@ object Notes2GeneratorsAndGards {
     for (i <- 1 to 10 if i < 6) println(i)
     println("**************")
     //3) parcourir une collection Map
-    val names = Map("fname" -> "Robert", "lname" -> "Goren")
+    val names = Map("fname" -> "Robert", "lname" -> "Goren","firstname"-> "abidi", "lastname" -> "ismahan")
     for ((k,v) <- names) println(s"key: $k, value: $v")
   }
 

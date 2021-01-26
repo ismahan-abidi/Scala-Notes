@@ -1,6 +1,8 @@
 package tuto7.packaging
 
 import tuto7.packaging.orderentry.Foo
+
+
 //on peut écrire plusieurs pakages dans le meme fichier scala
 //c'est equivalent au namespaces(c++)
 package orderentry {
@@ -26,6 +28,4 @@ object Notes1CurlyBraces extends App {
   println(new orderentry.Foo)
   println(new Foo)
   println(new Foo)
-
-
 }

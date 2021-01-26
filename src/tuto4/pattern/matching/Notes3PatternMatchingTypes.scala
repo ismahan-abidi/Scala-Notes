@@ -1,4 +1,5 @@
 package tuto4.pattern.matching
+
 //on peut heriter la class App pour executer des instructions au lieu d'utiliser la methode main
 object Notes3PatternMatchingTypes extends App{
   //les differents types de pattern matching en scala sont :
@@ -13,6 +14,7 @@ object Notes3PatternMatchingTypes extends App{
   println(pattern_mutching_type(true))
   println(pattern_mutching_type("hello"))
   println(pattern_mutching_type(""))
+  println(pattern_mutching_type(null))
   println("--------------------------------------")
   // 2. lancer le constructor pattern:
   val p0 = Personne("kouki", "abdel")
@@ -79,7 +81,7 @@ object Notes3PatternMatchingTypes extends App{
 
   }
   //creer des case class
-  //une case class est une calsse particuliere quand utilise generalement dans le pattern matching
+  //une case class est une calsse particulière qu'on  utilise generalement dans le pattern matching
   case class Personne(first_name : String ,last_name: String ){
 
   }

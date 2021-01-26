@@ -8,6 +8,7 @@ object ObjectCasting extends App {
   }
   class B extends A
   val b = new B
+ // b.f
   val a =b.asInstanceOf[A]
   a.f
   val a1 = new A

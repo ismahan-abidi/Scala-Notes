@@ -6,9 +6,8 @@ public interface I1 {
         System.out.println("je suis une méthode  g static donc implémenté dans un interface (depuis java 8 )");
     }
     public default void h(){
-        System.out.println("je suis une méthode h default onc implémenté dans un interface (depuis java 8 ) ");
+        System.out.println("je suis une méthode h default donc implémenté dans un interface (depuis java 8 ) ");
     }
-
 
     }
 

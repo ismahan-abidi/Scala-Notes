@@ -10,11 +10,12 @@ object Notes3AuxiliaryConstructors {
     println(p3)
 
   }
-  //un constructeur auxiliaire doit faire appel à un autre constriucteur deja implimenté que ce soit primaire ou
+  //un constructeur auxiliaire doit faire appel à un autre constructeur deja implimenté que ce soit primaire ou
   //un autre constructeur auxiliare
-  //seulement les parametres de constructeur primaire sont considérer comme des attributs
-  class Point(x : Int , y: Int) { // classe et constructeur primaire
-    //la declaration d'un costructeur auxiliare ce fait comme suit:
+  //seulement les parametres de constructeur primaire sont considérés comme des attributs
+  //les paramètres du constructeur secondaires ne sont pas des attributs ils sont des paramètres propre à lui càd ne sont pas visibles  ailleurs
+  class Point( x : Int , y: Int) { // classe et constructeur primaire
+    //la declaration d'un costructeur auxiliaire ce fait comme suit:
     //def this (param1 : type1 , param2 : type2,...)
     override def toString: String =s"les coordonnées de cet objet sont x= $x et y = $y"
     def this(){//constructeur sans parametre

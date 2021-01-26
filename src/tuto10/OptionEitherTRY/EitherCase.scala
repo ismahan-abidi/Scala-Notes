@@ -1,9 +1,10 @@
 package tuto10.OptionEitherTRY
 
 object EitherCase {
+  //les type monadiques sont Option , Either et Try
   /**
    * one weakness of this approach is that the Option/Some/None approach doesn’t tell
-   * you why something failed, that is, why you got a None instead of a Some
+   * something failed, that is, why you got a None instead of a Some
    */
   def main(args: Array[String]): Unit = {
     /**

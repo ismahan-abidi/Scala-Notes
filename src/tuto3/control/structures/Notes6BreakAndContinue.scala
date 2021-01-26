@@ -1,5 +1,5 @@
 package tuto3.control.structures
-import util.control.Breaks._
+
 object Notes6BreakAndContinue {
   def main(args: Array[String]): Unit = {
     println("\n=== BREAK EXAMPLE ===")

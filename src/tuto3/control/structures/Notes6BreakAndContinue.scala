@@ -1,5 +1,7 @@
 package tuto3.control.structures
 
+import scala.util.control.Breaks.{break, breakable}
+
 object Notes6BreakAndContinue {
   def main(args: Array[String]): Unit = {
     println("\n=== BREAK EXAMPLE ===")

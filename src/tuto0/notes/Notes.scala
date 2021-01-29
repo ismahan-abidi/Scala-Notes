@@ -1,6 +1,8 @@
 package tuto0.notes
 
 object Notes {
+
+  //l'autre projet scala-Notes dans le home
   def main(args: Array[String]): Unit = {
     //object est l'equivalent d'une classe en java ou tout les attributs et les methodes sont statiques
     // pour creer une constante on utilise le mot "val"

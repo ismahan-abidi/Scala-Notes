@@ -1,7 +1,7 @@
 package exercices
 
 object Ex7Palindrome extends App {
- /* def isPalindrome_func(s: String): Boolean = {
+  def isPalindrome_func(s: String): Boolean = {
     //abccba ==> palindrome  // abcdjdcba ==> palindrome//  acdbg n'est pas symétrique donc n'est pas palindrome
     //how to get char by index in scala
     // La mariée ira mal
@@ -22,9 +22,9 @@ object Ex7Palindrome extends App {
       i=i+1
     }
     testpalindrom
-  }*/
+  }
   def isPalindrome2Recurcive(s:String):Boolean = {
-    println(s)
+   // println(s)
     if(s.length==0||s.length==1) true
     else if(s.charAt(0) !=s.charAt(s.length-1)) false
     else

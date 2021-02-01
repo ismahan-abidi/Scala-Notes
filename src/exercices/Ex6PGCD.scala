@@ -11,8 +11,9 @@ object Ex6PGCD extends App {
       if (x > y) {
         pgcd = y
         r = x % y
-        b = y
-      } else {
+        b = y // il faut qu'on stocke l'encienne valeur de y car elle va changée y,r,r1,r2,...
+      }
+      else {
         pgcd = x
         r = y % x
         b = x
@@ -20,14 +21,12 @@ object Ex6PGCD extends App {
       while (r != 0) {
         println("r = " + r + " , b = " + b)
         pgcd = r
-        val b1 = r
+        val b1 = r /// il faut qu'on stocke l'encienne valeur de r car elle va changée  r,r1,r2,...
         r = b % r
         b = b1
       }
       pgcd
     }
-
-
   }
 
   def pgcd_recur(x: Int, y: Int): Int = {
